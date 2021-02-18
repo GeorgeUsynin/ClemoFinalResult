@@ -1,0 +1,2942 @@
+.h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 48px;
+  margin: 80px 0;
+  color: black;
+}
+.button1200 {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+.radiolabelhidden .radiolabel {
+  display: none;
+}
+.radiolabelhidden input.SReadMoreRadio {
+  display: none;
+}
+.radiolabelhidden input.SReadMoreRadio + label ~ p {
+  display: block;
+}
+.radiolabelhidden input.SReadMoreRadio:checked + label ~ p {
+  display: block;
+}
+.radiolabelhidden input.SReadMoreRadio + label {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.radiolabelhidden input.SReadMoreRadio:checked + label {
+  display: none;
+}
+.radiolabelhidden input.SReadMoreRadio + label + p + p + input + label {
+  display: none;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.radiolabelhidden input.SReadMoreRadio:checked + label + p + p + input + label {
+  display: block;
+}
+.radiolabelhidden label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+.radiolabelshow .radiolabel {
+  display: block;
+}
+.radiolabelshow input.SReadMoreRadio + label ~ p {
+  display: none;
+}
+body.aboutus,
+body.index,
+body.services,
+body.service-creative,
+body.service-coast,
+body.service-lab,
+body.works,
+body.worksolo,
+body.blog,
+body.blog-inner,
+body.contacts-main {
+  max-width: 1920px;
+}
+body.aboutus header,
+body.index header,
+body.services header,
+body.service-creative header,
+body.service-coast header,
+body.service-lab header,
+body.works header,
+body.worksolo header,
+body.blog header,
+body.blog-inner header,
+body.contacts-main header {
+  padding: 60px 10%;
+}
+body.aboutus header .navbar,
+body.index header .navbar,
+body.services header .navbar,
+body.service-creative header .navbar,
+body.service-coast header .navbar,
+body.service-lab header .navbar,
+body.works header .navbar,
+body.worksolo header .navbar,
+body.blog header .navbar,
+body.blog-inner header .navbar,
+body.contacts-main header .navbar {
+  padding: 0;
+}
+body.aboutus header .navbar .navbar-collapse,
+body.index header .navbar .navbar-collapse,
+body.services header .navbar .navbar-collapse,
+body.service-creative header .navbar .navbar-collapse,
+body.service-coast header .navbar .navbar-collapse,
+body.service-lab header .navbar .navbar-collapse,
+body.works header .navbar .navbar-collapse,
+body.worksolo header .navbar .navbar-collapse,
+body.blog header .navbar .navbar-collapse,
+body.blog-inner header .navbar .navbar-collapse,
+body.contacts-main header .navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+body.aboutus header .navbar .navbar-collapse ul,
+body.index header .navbar .navbar-collapse ul,
+body.services header .navbar .navbar-collapse ul,
+body.service-creative header .navbar .navbar-collapse ul,
+body.service-coast header .navbar .navbar-collapse ul,
+body.service-lab header .navbar .navbar-collapse ul,
+body.works header .navbar .navbar-collapse ul,
+body.worksolo header .navbar .navbar-collapse ul,
+body.blog header .navbar .navbar-collapse ul,
+body.blog-inner header .navbar .navbar-collapse ul,
+body.contacts-main header .navbar .navbar-collapse ul {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+body.aboutus header .navbar .navbar-collapse ul li a,
+body.index header .navbar .navbar-collapse ul li a,
+body.services header .navbar .navbar-collapse ul li a,
+body.service-creative header .navbar .navbar-collapse ul li a,
+body.service-coast header .navbar .navbar-collapse ul li a,
+body.service-lab header .navbar .navbar-collapse ul li a,
+body.works header .navbar .navbar-collapse ul li a,
+body.worksolo header .navbar .navbar-collapse ul li a,
+body.blog header .navbar .navbar-collapse ul li a,
+body.blog-inner header .navbar .navbar-collapse ul li a,
+body.contacts-main header .navbar .navbar-collapse ul li a {
+  font-weight: 300;
+  color: #656565;
+  padding: 8px 12px !important;
+}
+body.aboutus header .navbar .navbar-collapse ul li a:hover,
+body.index header .navbar .navbar-collapse ul li a:hover,
+body.services header .navbar .navbar-collapse ul li a:hover,
+body.service-creative header .navbar .navbar-collapse ul li a:hover,
+body.service-coast header .navbar .navbar-collapse ul li a:hover,
+body.service-lab header .navbar .navbar-collapse ul li a:hover,
+body.works header .navbar .navbar-collapse ul li a:hover,
+body.worksolo header .navbar .navbar-collapse ul li a:hover,
+body.blog header .navbar .navbar-collapse ul li a:hover,
+body.blog-inner header .navbar .navbar-collapse ul li a:hover,
+body.contacts-main header .navbar .navbar-collapse ul li a:hover {
+  font-weight: 500;
+  color: black !important;
+}
+body.aboutus header .bg-light,
+body.index header .bg-light,
+body.services header .bg-light,
+body.service-creative header .bg-light,
+body.service-coast header .bg-light,
+body.service-lab header .bg-light,
+body.works header .bg-light,
+body.worksolo header .bg-light,
+body.blog header .bg-light,
+body.blog-inner header .bg-light,
+body.contacts-main header .bg-light {
+  background-color: white !important;
+}
+body.aboutus footer,
+body.index footer,
+body.services footer,
+body.service-creative footer,
+body.service-coast footer,
+body.service-lab footer,
+body.works footer,
+body.worksolo footer,
+body.blog footer,
+body.blog-inner footer,
+body.contacts-main footer {
+  padding: 45px 0;
+}
+body.aboutus footer p:first-child,
+body.index footer p:first-child,
+body.services footer p:first-child,
+body.service-creative footer p:first-child,
+body.service-coast footer p:first-child,
+body.service-lab footer p:first-child,
+body.works footer p:first-child,
+body.worksolo footer p:first-child,
+body.blog footer p:first-child,
+body.blog-inner footer p:first-child,
+body.contacts-main footer p:first-child {
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 10px 0;
+}
+body.aboutus footer p:last-child,
+body.index footer p:last-child,
+body.services footer p:last-child,
+body.service-creative footer p:last-child,
+body.service-coast footer p:last-child,
+body.service-lab footer p:last-child,
+body.works footer p:last-child,
+body.worksolo footer p:last-child,
+body.blog footer p:last-child,
+body.blog-inner footer p:last-child,
+body.contacts-main footer p:last-child {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  margin: 0;
+  font-size: 14px;
+}
+body.aboutus .contact,
+body.index .contact,
+body.services .contact,
+body.service-creative .contact,
+body.service-coast .contact,
+body.service-lab .contact,
+body.works .contact,
+body.worksolo .contact,
+body.blog .contact,
+body.blog-inner .contact,
+body.contacts-main .contact {
+  background-image: url('images/bridge.jpg');
+  background-size: cover;
+  padding: 1px 10% 80px;
+  position: relative;
+}
+body.aboutus .contact h1,
+body.index .contact h1,
+body.services .contact h1,
+body.service-creative .contact h1,
+body.service-coast .contact h1,
+body.service-lab .contact h1,
+body.works .contact h1,
+body.worksolo .contact h1,
+body.blog .contact h1,
+body.blog-inner .contact h1,
+body.contacts-main .contact h1 {
+  position: relative;
+  color: white !important;
+}
+body.aboutus .contact .back,
+body.index .contact .back,
+body.services .contact .back,
+body.service-creative .contact .back,
+body.service-coast .contact .back,
+body.service-lab .contact .back,
+body.works .contact .back,
+body.worksolo .contact .back,
+body.blog .contact .back,
+body.blog-inner .contact .back,
+body.contacts-main .contact .back {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+}
+body.aboutus .contact .adress_socials_form,
+body.index .contact .adress_socials_form,
+body.services .contact .adress_socials_form,
+body.service-creative .contact .adress_socials_form,
+body.service-coast .contact .adress_socials_form,
+body.service-lab .contact .adress_socials_form,
+body.works .contact .adress_socials_form,
+body.worksolo .contact .adress_socials_form,
+body.blog .contact .adress_socials_form,
+body.blog-inner .contact .adress_socials_form,
+body.contacts-main .contact .adress_socials_form {
+  display: grid;
+  position: relative;
+  grid-template-columns: 45% 45%;
+  grid-template-rows: 345px;
+  grid-auto-flow: column;
+  place-content: start space-between;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .adress ul,
+body.index .contact .adress_socials_form .adress_socials .adress ul,
+body.services .contact .adress_socials_form .adress_socials .adress ul,
+body.service-creative .contact .adress_socials_form .adress_socials .adress ul,
+body.service-coast .contact .adress_socials_form .adress_socials .adress ul,
+body.service-lab .contact .adress_socials_form .adress_socials .adress ul,
+body.works .contact .adress_socials_form .adress_socials .adress ul,
+body.worksolo .contact .adress_socials_form .adress_socials .adress ul,
+body.blog .contact .adress_socials_form .adress_socials .adress ul,
+body.blog-inner .contact .adress_socials_form .adress_socials .adress ul,
+body.contacts-main .contact .adress_socials_form .adress_socials .adress ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .adress ul li,
+body.index .contact .adress_socials_form .adress_socials .adress ul li,
+body.services .contact .adress_socials_form .adress_socials .adress ul li,
+body.service-creative .contact .adress_socials_form .adress_socials .adress ul li,
+body.service-coast .contact .adress_socials_form .adress_socials .adress ul li,
+body.service-lab .contact .adress_socials_form .adress_socials .adress ul li,
+body.works .contact .adress_socials_form .adress_socials .adress ul li,
+body.worksolo .contact .adress_socials_form .adress_socials .adress ul li,
+body.blog .contact .adress_socials_form .adress_socials .adress ul li,
+body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li,
+body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li {
+  margin-bottom: 47px;
+  padding-left: 34px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.index .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.services .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.works .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.blog .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:first-child,
+body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:first-child {
+  background-image: url('images/pin.png');
+  background-repeat: no-repeat;
+  background-position: 0 4px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.index .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.services .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.works .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.blog .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2),
+body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2) {
+  background-image: url('images/iphone.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.index .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.services .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.works .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.blog .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:last-child,
+body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:last-child {
+  background-image: url('images/envelope.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul,
+body.index .contact .adress_socials_form .adress_socials .socials ul,
+body.services .contact .adress_socials_form .adress_socials .socials ul,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul,
+body.works .contact .adress_socials_form .adress_socials .socials ul,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul,
+body.blog .contact .adress_socials_form .adress_socials .socials ul,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li,
+body.index .contact .adress_socials_form .adress_socials .socials ul li,
+body.services .contact .adress_socials_form .adress_socials .socials ul li,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li,
+body.works .contact .adress_socials_form .adress_socials .socials ul li,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li {
+  margin-right: 20px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li a {
+  display: block;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:last-child,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:last-child {
+  margin-right: 0;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:first-child a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:first-child a {
+  background-image: url('images/sprite.png');
+  background-position: 0px 0px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:first-child:hover a {
+  background-image: url('images/sprite.png');
+  background-position: -40px 0px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a {
+  background-image: url('images/sprite.png');
+  background-position: -80px -80px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2) a {
+  background-image: url('images/sprite.png');
+  background-position: -80px -80px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(2):hover a {
+  background-image: url('images/sprite.png');
+  background-position: -120px 0px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3) a {
+  background-image: url('images/sprite.png');
+  background-position: 0px -40px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(3):hover a {
+  background-image: url('images/sprite.png');
+  background-position: -40px -40px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4) a {
+  background-image: url('images/sprite.png');
+  background-position: 0px -80px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:nth-child(4):hover a {
+  background-image: url('images/sprite.png');
+  background-position: -40px -80px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:last-child a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:last-child a {
+  background-image: url('images/sprite.png');
+  background-position: -80px 0px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.index .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.services .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.service-creative .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.service-coast .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.service-lab .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.works .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.worksolo .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.blog .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.blog-inner .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a,
+body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li:last-child:hover a {
+  background-image: url('images/sprite.png');
+  background-position: -80px -40px;
+  width: 40px;
+  height: 40px;
+}
+body.aboutus .contact .adress_socials_form form .flex_form,
+body.index .contact .adress_socials_form form .flex_form,
+body.services .contact .adress_socials_form form .flex_form,
+body.service-creative .contact .adress_socials_form form .flex_form,
+body.service-coast .contact .adress_socials_form form .flex_form,
+body.service-lab .contact .adress_socials_form form .flex_form,
+body.works .contact .adress_socials_form form .flex_form,
+body.worksolo .contact .adress_socials_form form .flex_form,
+body.blog .contact .adress_socials_form form .flex_form,
+body.blog-inner .contact .adress_socials_form form .flex_form,
+body.contacts-main .contact .adress_socials_form form .flex_form {
+  display: flex;
+  flex-direction: column-reverse;
+}
+body.aboutus .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.index .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.services .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.service-creative .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.service-coast .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.service-lab .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.works .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.worksolo .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.blog .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.blog-inner .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder,
+body.contacts-main .contact .adress_socials_form form .flex_form input::-webkit-input-placeholder {
+  opacity: 0.9;
+  color: white;
+}
+body.aboutus .contact .adress_socials_form form .flex_form input:focus,
+body.index .contact .adress_socials_form form .flex_form input:focus,
+body.services .contact .adress_socials_form form .flex_form input:focus,
+body.service-creative .contact .adress_socials_form form .flex_form input:focus,
+body.service-coast .contact .adress_socials_form form .flex_form input:focus,
+body.service-lab .contact .adress_socials_form form .flex_form input:focus,
+body.works .contact .adress_socials_form form .flex_form input:focus,
+body.worksolo .contact .adress_socials_form form .flex_form input:focus,
+body.blog .contact .adress_socials_form form .flex_form input:focus,
+body.blog-inner .contact .adress_socials_form form .flex_form input:focus,
+body.contacts-main .contact .adress_socials_form form .flex_form input:focus {
+  outline: none;
+  border-bottom: solid white 1px;
+}
+body.aboutus .contact .adress_socials_form form .flex_form input,
+body.index .contact .adress_socials_form form .flex_form input,
+body.services .contact .adress_socials_form form .flex_form input,
+body.service-creative .contact .adress_socials_form form .flex_form input,
+body.service-coast .contact .adress_socials_form form .flex_form input,
+body.service-lab .contact .adress_socials_form form .flex_form input,
+body.works .contact .adress_socials_form form .flex_form input,
+body.worksolo .contact .adress_socials_form form .flex_form input,
+body.blog .contact .adress_socials_form form .flex_form input,
+body.blog-inner .contact .adress_socials_form form .flex_form input,
+body.contacts-main .contact .adress_socials_form form .flex_form input {
+  margin-bottom: 35px;
+  width: 80%;
+  padding: 15px 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  text-align: left;
+  border: none;
+  border-bottom: solid #999999 1px;
+  background-color: transparent;
+  cursor: pointer;
+  color: white;
+}
+body.aboutus .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.index .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.services .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.service-creative .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.service-coast .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.service-lab .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.works .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.worksolo .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.blog .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.blog-inner .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder,
+body.contacts-main .contact .adress_socials_form form .flex_form input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+body.aboutus .contact .adress_socials_form form .flex_form input + p,
+body.index .contact .adress_socials_form form .flex_form input + p,
+body.services .contact .adress_socials_form form .flex_form input + p,
+body.service-creative .contact .adress_socials_form form .flex_form input + p,
+body.service-coast .contact .adress_socials_form form .flex_form input + p,
+body.service-lab .contact .adress_socials_form form .flex_form input + p,
+body.works .contact .adress_socials_form form .flex_form input + p,
+body.worksolo .contact .adress_socials_form form .flex_form input + p,
+body.blog .contact .adress_socials_form form .flex_form input + p,
+body.blog-inner .contact .adress_socials_form form .flex_form input + p,
+body.contacts-main .contact .adress_socials_form form .flex_form input + p {
+  opacity: 0.9;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  font-weight: 300;
+  text-align: left;
+}
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_name,
+body.index .contact .adress_socials_form form .flex_form .wrap_name,
+body.services .contact .adress_socials_form form .flex_form .wrap_name,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_name,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_name,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_name,
+body.works .contact .adress_socials_form form .flex_form .wrap_name,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_name,
+body.blog .contact .adress_socials_form form .flex_form .wrap_name,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_name,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_name,
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_email,
+body.index .contact .adress_socials_form form .flex_form .wrap_email,
+body.services .contact .adress_socials_form form .flex_form .wrap_email,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_email,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_email,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_email,
+body.works .contact .adress_socials_form form .flex_form .wrap_email,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_email,
+body.blog .contact .adress_socials_form form .flex_form .wrap_email,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_email,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_email,
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_message,
+body.index .contact .adress_socials_form form .flex_form .wrap_message,
+body.services .contact .adress_socials_form form .flex_form .wrap_message,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_message,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_message,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_message,
+body.works .contact .adress_socials_form form .flex_form .wrap_message,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_message,
+body.blog .contact .adress_socials_form form .flex_form .wrap_message,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_message,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_message {
+  position: relative;
+}
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_name p,
+body.index .contact .adress_socials_form form .flex_form .wrap_name p,
+body.services .contact .adress_socials_form form .flex_form .wrap_name p,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_name p,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_name p,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_name p,
+body.works .contact .adress_socials_form form .flex_form .wrap_name p,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_name p,
+body.blog .contact .adress_socials_form form .flex_form .wrap_name p,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_name p,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_name p,
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_email p,
+body.index .contact .adress_socials_form form .flex_form .wrap_email p,
+body.services .contact .adress_socials_form form .flex_form .wrap_email p,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_email p,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_email p,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_email p,
+body.works .contact .adress_socials_form form .flex_form .wrap_email p,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_email p,
+body.blog .contact .adress_socials_form form .flex_form .wrap_email p,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_email p,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_email p,
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_message p,
+body.index .contact .adress_socials_form form .flex_form .wrap_message p,
+body.services .contact .adress_socials_form form .flex_form .wrap_message p,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_message p,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_message p,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_message p,
+body.works .contact .adress_socials_form form .flex_form .wrap_message p,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_message p,
+body.blog .contact .adress_socials_form form .flex_form .wrap_message p,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_message p,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_message p {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition-duration: 1s;
+}
+body.aboutus .contact .adress_socials_form form .flex_form .wrap_message input,
+body.index .contact .adress_socials_form form .flex_form .wrap_message input,
+body.services .contact .adress_socials_form form .flex_form .wrap_message input,
+body.service-creative .contact .adress_socials_form form .flex_form .wrap_message input,
+body.service-coast .contact .adress_socials_form form .flex_form .wrap_message input,
+body.service-lab .contact .adress_socials_form form .flex_form .wrap_message input,
+body.works .contact .adress_socials_form form .flex_form .wrap_message input,
+body.worksolo .contact .adress_socials_form form .flex_form .wrap_message input,
+body.blog .contact .adress_socials_form form .flex_form .wrap_message input,
+body.blog-inner .contact .adress_socials_form form .flex_form .wrap_message input,
+body.contacts-main .contact .adress_socials_form form .flex_form .wrap_message input {
+  margin-bottom: 50px;
+}
+body.aboutus .contact .adress_socials_form form .flex_form input:focus + p,
+body.index .contact .adress_socials_form form .flex_form input:focus + p,
+body.services .contact .adress_socials_form form .flex_form input:focus + p,
+body.service-creative .contact .adress_socials_form form .flex_form input:focus + p,
+body.service-coast .contact .adress_socials_form form .flex_form input:focus + p,
+body.service-lab .contact .adress_socials_form form .flex_form input:focus + p,
+body.works .contact .adress_socials_form form .flex_form input:focus + p,
+body.worksolo .contact .adress_socials_form form .flex_form input:focus + p,
+body.blog .contact .adress_socials_form form .flex_form input:focus + p,
+body.blog-inner .contact .adress_socials_form form .flex_form input:focus + p,
+body.contacts-main .contact .adress_socials_form form .flex_form input:focus + p {
+  transform: translateY(-20px);
+  z-index: 1;
+}
+body.aboutus .contact .adress_socials_form form .wrap_submit .send:hover,
+body.index .contact .adress_socials_form form .wrap_submit .send:hover,
+body.services .contact .adress_socials_form form .wrap_submit .send:hover,
+body.service-creative .contact .adress_socials_form form .wrap_submit .send:hover,
+body.service-coast .contact .adress_socials_form form .wrap_submit .send:hover,
+body.service-lab .contact .adress_socials_form form .wrap_submit .send:hover,
+body.works .contact .adress_socials_form form .wrap_submit .send:hover,
+body.worksolo .contact .adress_socials_form form .wrap_submit .send:hover,
+body.blog .contact .adress_socials_form form .wrap_submit .send:hover,
+body.blog-inner .contact .adress_socials_form form .wrap_submit .send:hover,
+body.contacts-main .contact .adress_socials_form form .wrap_submit .send:hover {
+  background-color: #ffcb93;
+  border: solid #ffcb93 1px;
+}
+body.aboutus .contact .adress_socials_form form .wrap_submit .send:focus,
+body.index .contact .adress_socials_form form .wrap_submit .send:focus,
+body.services .contact .adress_socials_form form .wrap_submit .send:focus,
+body.service-creative .contact .adress_socials_form form .wrap_submit .send:focus,
+body.service-coast .contact .adress_socials_form form .wrap_submit .send:focus,
+body.service-lab .contact .adress_socials_form form .wrap_submit .send:focus,
+body.works .contact .adress_socials_form form .wrap_submit .send:focus,
+body.worksolo .contact .adress_socials_form form .wrap_submit .send:focus,
+body.blog .contact .adress_socials_form form .wrap_submit .send:focus,
+body.blog-inner .contact .adress_socials_form form .wrap_submit .send:focus,
+body.contacts-main .contact .adress_socials_form form .wrap_submit .send:focus {
+  outline: none;
+}
+body.aboutus .contact .adress_socials_form form .wrap_submit .send,
+body.index .contact .adress_socials_form form .wrap_submit .send,
+body.services .contact .adress_socials_form form .wrap_submit .send,
+body.service-creative .contact .adress_socials_form form .wrap_submit .send,
+body.service-coast .contact .adress_socials_form form .wrap_submit .send,
+body.service-lab .contact .adress_socials_form form .wrap_submit .send,
+body.works .contact .adress_socials_form form .wrap_submit .send,
+body.worksolo .contact .adress_socials_form form .wrap_submit .send,
+body.blog .contact .adress_socials_form form .wrap_submit .send,
+body.blog-inner .contact .adress_socials_form form .wrap_submit .send,
+body.contacts-main .contact .adress_socials_form form .wrap_submit .send {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+body.aboutus .contact .adress_socials_form #thank,
+body.index .contact .adress_socials_form #thank,
+body.services .contact .adress_socials_form #thank,
+body.service-creative .contact .adress_socials_form #thank,
+body.service-coast .contact .adress_socials_form #thank,
+body.service-lab .contact .adress_socials_form #thank,
+body.works .contact .adress_socials_form #thank,
+body.worksolo .contact .adress_socials_form #thank,
+body.blog .contact .adress_socials_form #thank,
+body.blog-inner .contact .adress_socials_form #thank,
+body.contacts-main .contact .adress_socials_form #thank {
+  display: none;
+  grid-row: 1 / span 2;
+}
+body.aboutus .contact .adress_socials_form #thank p,
+body.index .contact .adress_socials_form #thank p,
+body.services .contact .adress_socials_form #thank p,
+body.service-creative .contact .adress_socials_form #thank p,
+body.service-coast .contact .adress_socials_form #thank p,
+body.service-lab .contact .adress_socials_form #thank p,
+body.works .contact .adress_socials_form #thank p,
+body.worksolo .contact .adress_socials_form #thank p,
+body.blog .contact .adress_socials_form #thank p,
+body.blog-inner .contact .adress_socials_form #thank p,
+body.contacts-main .contact .adress_socials_form #thank p {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  text-align: left;
+  margin: 0;
+}
+body.aboutus .contact .adress_socials_form #thank svg,
+body.index .contact .adress_socials_form #thank svg,
+body.services .contact .adress_socials_form #thank svg,
+body.service-creative .contact .adress_socials_form #thank svg,
+body.service-coast .contact .adress_socials_form #thank svg,
+body.service-lab .contact .adress_socials_form #thank svg,
+body.works .contact .adress_socials_form #thank svg,
+body.worksolo .contact .adress_socials_form #thank svg,
+body.blog .contact .adress_socials_form #thank svg,
+body.blog-inner .contact .adress_socials_form #thank svg,
+body.contacts-main .contact .adress_socials_form #thank svg {
+  margin-left: 35px;
+  margin-bottom: 30px;
+}
+body.aboutus .contact .adress_socials_form #thank button,
+body.index .contact .adress_socials_form #thank button,
+body.services .contact .adress_socials_form #thank button,
+body.service-creative .contact .adress_socials_form #thank button,
+body.service-coast .contact .adress_socials_form #thank button,
+body.service-lab .contact .adress_socials_form #thank button,
+body.works .contact .adress_socials_form #thank button,
+body.worksolo .contact .adress_socials_form #thank button,
+body.blog .contact .adress_socials_form #thank button,
+body.blog-inner .contact .adress_socials_form #thank button,
+body.contacts-main .contact .adress_socials_form #thank button {
+  width: 170px;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #d8d8d8;
+  background-color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  width: 190px;
+  margin-top: 45px;
+}
+body.aboutus .contact .adress_socials_form #thank button:focus,
+body.index .contact .adress_socials_form #thank button:focus,
+body.services .contact .adress_socials_form #thank button:focus,
+body.service-creative .contact .adress_socials_form #thank button:focus,
+body.service-coast .contact .adress_socials_form #thank button:focus,
+body.service-lab .contact .adress_socials_form #thank button:focus,
+body.works .contact .adress_socials_form #thank button:focus,
+body.worksolo .contact .adress_socials_form #thank button:focus,
+body.blog .contact .adress_socials_form #thank button:focus,
+body.blog-inner .contact .adress_socials_form #thank button:focus,
+body.contacts-main .contact .adress_socials_form #thank button:focus {
+  outline: none;
+}
+body.aboutus .contact .adress_socials_form #thank button:hover,
+body.index .contact .adress_socials_form #thank button:hover,
+body.services .contact .adress_socials_form #thank button:hover,
+body.service-creative .contact .adress_socials_form #thank button:hover,
+body.service-coast .contact .adress_socials_form #thank button:hover,
+body.service-lab .contact .adress_socials_form #thank button:hover,
+body.works .contact .adress_socials_form #thank button:hover,
+body.worksolo .contact .adress_socials_form #thank button:hover,
+body.blog .contact .adress_socials_form #thank button:hover,
+body.blog-inner .contact .adress_socials_form #thank button:hover,
+body.contacts-main .contact .adress_socials_form #thank button:hover {
+  background-color: #ffcb93;
+  border: solid #ffcb93 1px;
+}
+body.aboutus .goals,
+body.index .goals,
+body.services .goals,
+body.service-creative .goals,
+body.service-coast .goals,
+body.service-lab .goals,
+body.works .goals,
+body.worksolo .goals,
+body.blog .goals,
+body.blog-inner .goals,
+body.contacts-main .goals {
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 0;
+  text-align: center;
+}
+body.aboutus .goals div,
+body.index .goals div,
+body.services .goals div,
+body.service-creative .goals div,
+body.service-coast .goals div,
+body.service-lab .goals div,
+body.works .goals div,
+body.worksolo .goals div,
+body.blog .goals div,
+body.blog-inner .goals div,
+body.contacts-main .goals div {
+  color: #000;
+}
+body.aboutus .goals div p:first-child,
+body.index .goals div p:first-child,
+body.services .goals div p:first-child,
+body.service-creative .goals div p:first-child,
+body.service-coast .goals div p:first-child,
+body.service-lab .goals div p:first-child,
+body.works .goals div p:first-child,
+body.worksolo .goals div p:first-child,
+body.blog .goals div p:first-child,
+body.blog-inner .goals div p:first-child,
+body.contacts-main .goals div p:first-child,
+body.aboutus .goals div p:first-of-type,
+body.index .goals div p:first-of-type,
+body.services .goals div p:first-of-type,
+body.service-creative .goals div p:first-of-type,
+body.service-coast .goals div p:first-of-type,
+body.service-lab .goals div p:first-of-type,
+body.works .goals div p:first-of-type,
+body.worksolo .goals div p:first-of-type,
+body.blog .goals div p:first-of-type,
+body.blog-inner .goals div p:first-of-type,
+body.contacts-main .goals div p:first-of-type {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 19px;
+  background-image: url('images/line50.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0;
+  line-height: 30px;
+}
+body.aboutus .goals div p:last-child,
+body.index .goals div p:last-child,
+body.services .goals div p:last-child,
+body.service-creative .goals div p:last-child,
+body.service-coast .goals div p:last-child,
+body.service-lab .goals div p:last-child,
+body.works .goals div p:last-child,
+body.worksolo .goals div p:last-child,
+body.blog .goals div p:last-child,
+body.blog-inner .goals div p:last-child,
+body.contacts-main .goals div p:last-child,
+body.aboutus .goals div p:last-of-type,
+body.index .goals div p:last-of-type,
+body.services .goals div p:last-of-type,
+body.service-creative .goals div p:last-of-type,
+body.service-coast .goals div p:last-of-type,
+body.service-lab .goals div p:last-of-type,
+body.works .goals div p:last-of-type,
+body.worksolo .goals div p:last-of-type,
+body.blog .goals div p:last-of-type,
+body.blog-inner .goals div p:last-of-type,
+body.contacts-main .goals div p:last-of-type {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+  margin: 0;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+body.aboutus .goals div p:last-child br,
+body.index .goals div p:last-child br,
+body.services .goals div p:last-child br,
+body.service-creative .goals div p:last-child br,
+body.service-coast .goals div p:last-child br,
+body.service-lab .goals div p:last-child br,
+body.works .goals div p:last-child br,
+body.worksolo .goals div p:last-child br,
+body.blog .goals div p:last-child br,
+body.blog-inner .goals div p:last-child br,
+body.contacts-main .goals div p:last-child br,
+body.aboutus .goals div p:last-of-type br,
+body.index .goals div p:last-of-type br,
+body.services .goals div p:last-of-type br,
+body.service-creative .goals div p:last-of-type br,
+body.service-coast .goals div p:last-of-type br,
+body.service-lab .goals div p:last-of-type br,
+body.works .goals div p:last-of-type br,
+body.worksolo .goals div p:last-of-type br,
+body.blog .goals div p:last-of-type br,
+body.blog-inner .goals div p:last-of-type br,
+body.contacts-main .goals div p:last-of-type br {
+  display: none;
+}
+body.aboutus .staff,
+body.index .staff,
+body.services .staff,
+body.service-creative .staff,
+body.service-coast .staff,
+body.service-lab .staff,
+body.works .staff,
+body.worksolo .staff,
+body.blog .staff,
+body.blog-inner .staff,
+body.contacts-main .staff {
+  background-color: #ffe1bd;
+  border: solid #ffe1bd 1px;
+}
+body.aboutus .staff h1:first-child,
+body.index .staff h1:first-child,
+body.services .staff h1:first-child,
+body.service-creative .staff h1:first-child,
+body.service-coast .staff h1:first-child,
+body.service-lab .staff h1:first-child,
+body.works .staff h1:first-child,
+body.worksolo .staff h1:first-child,
+body.blog .staff h1:first-child,
+body.blog-inner .staff h1:first-child,
+body.contacts-main .staff h1:first-child {
+  margin: 0 0 80px;
+  padding-top: 80px;
+}
+body.aboutus .staff .carousel-item .wrap-item,
+body.index .staff .carousel-item .wrap-item,
+body.services .staff .carousel-item .wrap-item,
+body.service-creative .staff .carousel-item .wrap-item,
+body.service-coast .staff .carousel-item .wrap-item,
+body.service-lab .staff .carousel-item .wrap-item,
+body.works .staff .carousel-item .wrap-item,
+body.worksolo .staff .carousel-item .wrap-item,
+body.blog .staff .carousel-item .wrap-item,
+body.blog-inner .staff .carousel-item .wrap-item,
+body.contacts-main .staff .carousel-item .wrap-item {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  grid-template-rows: auto auto;
+  place-content: start space-between;
+  row-gap: 20px;
+  padding: 0px 10% 175px;
+  text-align: center;
+}
+body.aboutus .staff .carousel-item .wrap-item div,
+body.index .staff .carousel-item .wrap-item div,
+body.services .staff .carousel-item .wrap-item div,
+body.service-creative .staff .carousel-item .wrap-item div,
+body.service-coast .staff .carousel-item .wrap-item div,
+body.service-lab .staff .carousel-item .wrap-item div,
+body.works .staff .carousel-item .wrap-item div,
+body.worksolo .staff .carousel-item .wrap-item div,
+body.blog .staff .carousel-item .wrap-item div,
+body.blog-inner .staff .carousel-item .wrap-item div,
+body.contacts-main .staff .carousel-item .wrap-item div {
+  color: #000;
+}
+body.aboutus .staff .carousel-item .wrap-item div p:first-child,
+body.index .staff .carousel-item .wrap-item div p:first-child,
+body.services .staff .carousel-item .wrap-item div p:first-child,
+body.service-creative .staff .carousel-item .wrap-item div p:first-child,
+body.service-coast .staff .carousel-item .wrap-item div p:first-child,
+body.service-lab .staff .carousel-item .wrap-item div p:first-child,
+body.works .staff .carousel-item .wrap-item div p:first-child,
+body.worksolo .staff .carousel-item .wrap-item div p:first-child,
+body.blog .staff .carousel-item .wrap-item div p:first-child,
+body.blog-inner .staff .carousel-item .wrap-item div p:first-child,
+body.contacts-main .staff .carousel-item .wrap-item div p:first-child,
+body.aboutus .staff .carousel-item .wrap-item div p:first-of-type,
+body.index .staff .carousel-item .wrap-item div p:first-of-type,
+body.services .staff .carousel-item .wrap-item div p:first-of-type,
+body.service-creative .staff .carousel-item .wrap-item div p:first-of-type,
+body.service-coast .staff .carousel-item .wrap-item div p:first-of-type,
+body.service-lab .staff .carousel-item .wrap-item div p:first-of-type,
+body.works .staff .carousel-item .wrap-item div p:first-of-type,
+body.worksolo .staff .carousel-item .wrap-item div p:first-of-type,
+body.blog .staff .carousel-item .wrap-item div p:first-of-type,
+body.blog-inner .staff .carousel-item .wrap-item div p:first-of-type,
+body.contacts-main .staff .carousel-item .wrap-item div p:first-of-type {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding-bottom: 19px;
+  background-image: url('images/line50.png');
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  margin: 0;
+  line-height: 30px;
+}
+body.aboutus .staff .carousel-item .wrap-item div p:last-child,
+body.index .staff .carousel-item .wrap-item div p:last-child,
+body.services .staff .carousel-item .wrap-item div p:last-child,
+body.service-creative .staff .carousel-item .wrap-item div p:last-child,
+body.service-coast .staff .carousel-item .wrap-item div p:last-child,
+body.service-lab .staff .carousel-item .wrap-item div p:last-child,
+body.works .staff .carousel-item .wrap-item div p:last-child,
+body.worksolo .staff .carousel-item .wrap-item div p:last-child,
+body.blog .staff .carousel-item .wrap-item div p:last-child,
+body.blog-inner .staff .carousel-item .wrap-item div p:last-child,
+body.contacts-main .staff .carousel-item .wrap-item div p:last-child,
+body.aboutus .staff .carousel-item .wrap-item div p:last-of-type,
+body.index .staff .carousel-item .wrap-item div p:last-of-type,
+body.services .staff .carousel-item .wrap-item div p:last-of-type,
+body.service-creative .staff .carousel-item .wrap-item div p:last-of-type,
+body.service-coast .staff .carousel-item .wrap-item div p:last-of-type,
+body.service-lab .staff .carousel-item .wrap-item div p:last-of-type,
+body.works .staff .carousel-item .wrap-item div p:last-of-type,
+body.worksolo .staff .carousel-item .wrap-item div p:last-of-type,
+body.blog .staff .carousel-item .wrap-item div p:last-of-type,
+body.blog-inner .staff .carousel-item .wrap-item div p:last-of-type,
+body.contacts-main .staff .carousel-item .wrap-item div p:last-of-type {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 15px;
+  margin: 0;
+  line-height: 20px;
+  font-family: 'Montserrat', sans-serif;
+}
+body.aboutus .staff .carousel-item .wrap-item div p:last-child br,
+body.index .staff .carousel-item .wrap-item div p:last-child br,
+body.services .staff .carousel-item .wrap-item div p:last-child br,
+body.service-creative .staff .carousel-item .wrap-item div p:last-child br,
+body.service-coast .staff .carousel-item .wrap-item div p:last-child br,
+body.service-lab .staff .carousel-item .wrap-item div p:last-child br,
+body.works .staff .carousel-item .wrap-item div p:last-child br,
+body.worksolo .staff .carousel-item .wrap-item div p:last-child br,
+body.blog .staff .carousel-item .wrap-item div p:last-child br,
+body.blog-inner .staff .carousel-item .wrap-item div p:last-child br,
+body.contacts-main .staff .carousel-item .wrap-item div p:last-child br,
+body.aboutus .staff .carousel-item .wrap-item div p:last-of-type br,
+body.index .staff .carousel-item .wrap-item div p:last-of-type br,
+body.services .staff .carousel-item .wrap-item div p:last-of-type br,
+body.service-creative .staff .carousel-item .wrap-item div p:last-of-type br,
+body.service-coast .staff .carousel-item .wrap-item div p:last-of-type br,
+body.service-lab .staff .carousel-item .wrap-item div p:last-of-type br,
+body.works .staff .carousel-item .wrap-item div p:last-of-type br,
+body.worksolo .staff .carousel-item .wrap-item div p:last-of-type br,
+body.blog .staff .carousel-item .wrap-item div p:last-of-type br,
+body.blog-inner .staff .carousel-item .wrap-item div p:last-of-type br,
+body.contacts-main .staff .carousel-item .wrap-item div p:last-of-type br {
+  display: none;
+}
+body.aboutus .staff .carousel-item .wrap-item img,
+body.index .staff .carousel-item .wrap-item img,
+body.services .staff .carousel-item .wrap-item img,
+body.service-creative .staff .carousel-item .wrap-item img,
+body.service-coast .staff .carousel-item .wrap-item img,
+body.service-lab .staff .carousel-item .wrap-item img,
+body.works .staff .carousel-item .wrap-item img,
+body.worksolo .staff .carousel-item .wrap-item img,
+body.blog .staff .carousel-item .wrap-item img,
+body.blog-inner .staff .carousel-item .wrap-item img,
+body.contacts-main .staff .carousel-item .wrap-item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+body.aboutus .staff .carousel-item .wrap-item div p:first-of-type,
+body.index .staff .carousel-item .wrap-item div p:first-of-type,
+body.services .staff .carousel-item .wrap-item div p:first-of-type,
+body.service-creative .staff .carousel-item .wrap-item div p:first-of-type,
+body.service-coast .staff .carousel-item .wrap-item div p:first-of-type,
+body.service-lab .staff .carousel-item .wrap-item div p:first-of-type,
+body.works .staff .carousel-item .wrap-item div p:first-of-type,
+body.worksolo .staff .carousel-item .wrap-item div p:first-of-type,
+body.blog .staff .carousel-item .wrap-item div p:first-of-type,
+body.blog-inner .staff .carousel-item .wrap-item div p:first-of-type,
+body.contacts-main .staff .carousel-item .wrap-item div p:first-of-type {
+  line-height: 36px;
+}
+body.aboutus .staff .carousel-indicators,
+body.index .staff .carousel-indicators,
+body.services .staff .carousel-indicators,
+body.service-creative .staff .carousel-indicators,
+body.service-coast .staff .carousel-indicators,
+body.service-lab .staff .carousel-indicators,
+body.works .staff .carousel-indicators,
+body.worksolo .staff .carousel-indicators,
+body.blog .staff .carousel-indicators,
+body.blog-inner .staff .carousel-indicators,
+body.contacts-main .staff .carousel-indicators {
+  margin-bottom: 80px;
+}
+body.aboutus .staff .carousel-indicators li,
+body.index .staff .carousel-indicators li,
+body.services .staff .carousel-indicators li,
+body.service-creative .staff .carousel-indicators li,
+body.service-coast .staff .carousel-indicators li,
+body.service-lab .staff .carousel-indicators li,
+body.works .staff .carousel-indicators li,
+body.worksolo .staff .carousel-indicators li,
+body.blog .staff .carousel-indicators li,
+body.blog-inner .staff .carousel-indicators li,
+body.contacts-main .staff .carousel-indicators li {
+  width: auto;
+  height: auto;
+  text-indent: 0;
+  background-color: transparent;
+  opacity: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+body.aboutus .staff .carousel-indicators .active #circle,
+body.index .staff .carousel-indicators .active #circle,
+body.services .staff .carousel-indicators .active #circle,
+body.service-creative .staff .carousel-indicators .active #circle,
+body.service-coast .staff .carousel-indicators .active #circle,
+body.service-lab .staff .carousel-indicators .active #circle,
+body.works .staff .carousel-indicators .active #circle,
+body.worksolo .staff .carousel-indicators .active #circle,
+body.blog .staff .carousel-indicators .active #circle,
+body.blog-inner .staff .carousel-indicators .active #circle,
+body.contacts-main .staff .carousel-indicators .active #circle {
+  fill: #000000;
+}
+body.aboutus .staff .carousel-control-next,
+body.index .staff .carousel-control-next,
+body.services .staff .carousel-control-next,
+body.service-creative .staff .carousel-control-next,
+body.service-coast .staff .carousel-control-next,
+body.service-lab .staff .carousel-control-next,
+body.works .staff .carousel-control-next,
+body.worksolo .staff .carousel-control-next,
+body.blog .staff .carousel-control-next,
+body.blog-inner .staff .carousel-control-next,
+body.contacts-main .staff .carousel-control-next,
+body.aboutus .staff .carousel-control-prev,
+body.index .staff .carousel-control-prev,
+body.services .staff .carousel-control-prev,
+body.service-creative .staff .carousel-control-prev,
+body.service-coast .staff .carousel-control-prev,
+body.service-lab .staff .carousel-control-prev,
+body.works .staff .carousel-control-prev,
+body.worksolo .staff .carousel-control-prev,
+body.blog .staff .carousel-control-prev,
+body.blog-inner .staff .carousel-control-prev,
+body.contacts-main .staff .carousel-control-prev {
+  width: 10%;
+  opacity: 1;
+}
+body.aboutus .staff .carousel-control-next,
+body.index .staff .carousel-control-next,
+body.services .staff .carousel-control-next,
+body.service-creative .staff .carousel-control-next,
+body.service-coast .staff .carousel-control-next,
+body.service-lab .staff .carousel-control-next,
+body.works .staff .carousel-control-next,
+body.worksolo .staff .carousel-control-next,
+body.blog .staff .carousel-control-next,
+body.blog-inner .staff .carousel-control-next,
+body.contacts-main .staff .carousel-control-next {
+  right: 10px;
+}
+body.aboutus .staff .carousel-control-next:hover path,
+body.index .staff .carousel-control-next:hover path,
+body.services .staff .carousel-control-next:hover path,
+body.service-creative .staff .carousel-control-next:hover path,
+body.service-coast .staff .carousel-control-next:hover path,
+body.service-lab .staff .carousel-control-next:hover path,
+body.works .staff .carousel-control-next:hover path,
+body.worksolo .staff .carousel-control-next:hover path,
+body.blog .staff .carousel-control-next:hover path,
+body.blog-inner .staff .carousel-control-next:hover path,
+body.contacts-main .staff .carousel-control-next:hover path,
+body.aboutus .staff .carousel-control-prev:hover path,
+body.index .staff .carousel-control-prev:hover path,
+body.services .staff .carousel-control-prev:hover path,
+body.service-creative .staff .carousel-control-prev:hover path,
+body.service-coast .staff .carousel-control-prev:hover path,
+body.service-lab .staff .carousel-control-prev:hover path,
+body.works .staff .carousel-control-prev:hover path,
+body.worksolo .staff .carousel-control-prev:hover path,
+body.blog .staff .carousel-control-prev:hover path,
+body.blog-inner .staff .carousel-control-prev:hover path,
+body.contacts-main .staff .carousel-control-prev:hover path {
+  fill: white;
+}
+body.aboutus .staff .carousel-control-next-icon,
+body.index .staff .carousel-control-next-icon,
+body.services .staff .carousel-control-next-icon,
+body.service-creative .staff .carousel-control-next-icon,
+body.service-coast .staff .carousel-control-next-icon,
+body.service-lab .staff .carousel-control-next-icon,
+body.works .staff .carousel-control-next-icon,
+body.worksolo .staff .carousel-control-next-icon,
+body.blog .staff .carousel-control-next-icon,
+body.blog-inner .staff .carousel-control-next-icon,
+body.contacts-main .staff .carousel-control-next-icon,
+body.aboutus .staff .carousel-control-prev-icon,
+body.index .staff .carousel-control-prev-icon,
+body.services .staff .carousel-control-prev-icon,
+body.service-creative .staff .carousel-control-prev-icon,
+body.service-coast .staff .carousel-control-prev-icon,
+body.service-lab .staff .carousel-control-prev-icon,
+body.works .staff .carousel-control-prev-icon,
+body.worksolo .staff .carousel-control-prev-icon,
+body.blog .staff .carousel-control-prev-icon,
+body.blog-inner .staff .carousel-control-prev-icon,
+body.contacts-main .staff .carousel-control-prev-icon {
+  background-image: none;
+}
+body.aboutus .contact h1,
+body.index .contact h1,
+body.services .contact h1,
+body.service-creative .contact h1,
+body.service-coast .contact h1,
+body.service-lab .contact h1,
+body.works .contact h1,
+body.worksolo .contact h1,
+body.blog .contact h1,
+body.blog-inner .contact h1,
+body.contacts-main .contact h1,
+body.aboutus .staff h1,
+body.index .staff h1,
+body.services .staff h1,
+body.service-creative .staff h1,
+body.service-coast .staff h1,
+body.service-lab .staff h1,
+body.works .staff h1,
+body.worksolo .staff h1,
+body.blog .staff h1,
+body.blog-inner .staff h1,
+body.contacts-main .staff h1,
+body.aboutus .clientsays h1,
+body.index .clientsays h1,
+body.services .clientsays h1,
+body.service-creative .clientsays h1,
+body.service-coast .clientsays h1,
+body.service-lab .clientsays h1,
+body.works .clientsays h1,
+body.worksolo .clientsays h1,
+body.blog .clientsays h1,
+body.blog-inner .clientsays h1,
+body.contacts-main .clientsays h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 48px;
+  margin: 80px 0;
+  color: black;
+}
+body.aboutus .clientsays,
+body.index .clientsays,
+body.services .clientsays,
+body.service-creative .clientsays,
+body.service-coast .clientsays,
+body.service-lab .clientsays,
+body.works .clientsays,
+body.worksolo .clientsays,
+body.blog .clientsays,
+body.blog-inner .clientsays,
+body.contacts-main .clientsays {
+  padding-bottom: 40px;
+}
+body.aboutus .clientsays .carousel .carousel-indicators,
+body.index .clientsays .carousel .carousel-indicators,
+body.services .clientsays .carousel .carousel-indicators,
+body.service-creative .clientsays .carousel .carousel-indicators,
+body.service-coast .clientsays .carousel .carousel-indicators,
+body.service-lab .clientsays .carousel .carousel-indicators,
+body.works .clientsays .carousel .carousel-indicators,
+body.worksolo .clientsays .carousel .carousel-indicators,
+body.blog .clientsays .carousel .carousel-indicators,
+body.blog-inner .clientsays .carousel .carousel-indicators,
+body.contacts-main .clientsays .carousel .carousel-indicators {
+  position: static;
+  margin-top: 1rem;
+}
+body.aboutus .clientsays .carousel .carousel-indicators li,
+body.index .clientsays .carousel .carousel-indicators li,
+body.services .clientsays .carousel .carousel-indicators li,
+body.service-creative .clientsays .carousel .carousel-indicators li,
+body.service-coast .clientsays .carousel .carousel-indicators li,
+body.service-lab .clientsays .carousel .carousel-indicators li,
+body.works .clientsays .carousel .carousel-indicators li,
+body.worksolo .clientsays .carousel .carousel-indicators li,
+body.blog .clientsays .carousel .carousel-indicators li,
+body.blog-inner .clientsays .carousel .carousel-indicators li,
+body.contacts-main .clientsays .carousel .carousel-indicators li {
+  width: auto;
+  height: auto;
+  text-indent: 0;
+  background-color: transparent;
+  opacity: 1;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+body.aboutus .clientsays .carousel .carousel-indicators li.active #circle,
+body.index .clientsays .carousel .carousel-indicators li.active #circle,
+body.services .clientsays .carousel .carousel-indicators li.active #circle,
+body.service-creative .clientsays .carousel .carousel-indicators li.active #circle,
+body.service-coast .clientsays .carousel .carousel-indicators li.active #circle,
+body.service-lab .clientsays .carousel .carousel-indicators li.active #circle,
+body.works .clientsays .carousel .carousel-indicators li.active #circle,
+body.worksolo .clientsays .carousel .carousel-indicators li.active #circle,
+body.blog .clientsays .carousel .carousel-indicators li.active #circle,
+body.blog-inner .clientsays .carousel .carousel-indicators li.active #circle,
+body.contacts-main .clientsays .carousel .carousel-indicators li.active #circle {
+  fill: #000000;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments {
+  padding: 0 10%;
+  display: grid;
+  row-gap: 30px;
+  grid-template-columns: repeat(4, 25%);
+  grid-template-rows: repeat(2, auto);
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand {
+  display: none;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label {
+  margin: 0;
+  text-align: center;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg {
+  width: 80%;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.first ~ div.comment {
+  display: none;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment {
+  grid-column: 1 / span 4;
+  display: grid;
+  grid-template-columns: 48% 48%;
+  column-gap: 4%;
+  font-family: 'Montserrat', sans-serif;
+  color: black;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child {
+  padding-right: 30px;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0;
+  text-align: right;
+  padding-bottom: 20px;
+  background-image: url('images/line50.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+  margin: 0;
+  text-align: right;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P {
+  text-align: justify;
+  color: #656565;
+  font-size: 18px;
+  margin: 0;
+  padding-top: 20px;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover {
+  cursor: pointer;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface1 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface3 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface5 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface6 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface8 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface9 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface10 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface11 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface12 path {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even),
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface7 path:nth-child(even) {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd),
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface2 path:nth-child(odd) {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child),
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:hover #surface4 path:not(:first-child) {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface1 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface3 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface5 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface6 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface8 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface9 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface10 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface11 path,
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path,
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface12 path {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even),
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface7 path:nth-child(even) {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd),
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface2 path:nth-child(odd) {
+  fill: black !important;
+}
+body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child),
+body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments .radiobrand:checked + label #surface4 path:not(:first-child) {
+  fill: black !important;
+}
+@media only all and (max-width: 1024px) {
+  body.aboutus .staff h1,
+  body.index .staff h1,
+  body.services .staff h1,
+  body.service-creative .staff h1,
+  body.service-coast .staff h1,
+  body.service-lab .staff h1,
+  body.contacts-main .staff h1,
+  body.aboutus .contact h1,
+  body.index .contact h1,
+  body.services .contact h1,
+  body.service-creative .contact h1,
+  body.service-coast .contact h1,
+  body.service-lab .contact h1,
+  body.contacts-main .contact h1,
+  body.aboutus .clientsays h1,
+  body.index .clientsays h1,
+  body.services .clientsays h1,
+  body.service-creative .clientsays h1,
+  body.service-coast .clientsays h1,
+  body.service-lab .clientsays h1,
+  body.contacts-main .clientsays h1 {
+    font-size: 50px;
+    line-height: 36px;
+    margin: 60px 0;
+  }
+  body.aboutus .contact,
+  body.index .contact,
+  body.services .contact,
+  body.service-creative .contact,
+  body.service-coast .contact,
+  body.service-lab .contact,
+  body.contacts-main .contact {
+    padding: 1px 1% 15px;
+  }
+  body.aboutus .contact .adress_socials_form,
+  body.index .contact .adress_socials_form,
+  body.services .contact .adress_socials_form,
+  body.service-creative .contact .adress_socials_form,
+  body.service-coast .contact .adress_socials_form,
+  body.service-lab .contact .adress_socials_form,
+  body.contacts-main .contact .adress_socials_form {
+    place-content: start space-around;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .adress ul li,
+  body.index .contact .adress_socials_form .adress_socials .adress ul li,
+  body.services .contact .adress_socials_form .adress_socials .adress ul li,
+  body.service-creative .contact .adress_socials_form .adress_socials .adress ul li,
+  body.service-coast .contact .adress_socials_form .adress_socials .adress ul li,
+  body.service-lab .contact .adress_socials_form .adress_socials .adress ul li,
+  body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li {
+    margin-bottom: 30px;
+  }
+  body.aboutus .contact .adress_socials_form form .flex_form input,
+  body.index .contact .adress_socials_form form .flex_form input,
+  body.services .contact .adress_socials_form form .flex_form input,
+  body.service-creative .contact .adress_socials_form form .flex_form input,
+  body.service-coast .contact .adress_socials_form form .flex_form input,
+  body.service-lab .contact .adress_socials_form form .flex_form input,
+  body.contacts-main .contact .adress_socials_form form .flex_form input {
+    margin-bottom: 20px;
+  }
+  body.aboutus .contact .adress_socials_form form .flex_form .wrap_message input,
+  body.index .contact .adress_socials_form form .flex_form .wrap_message input,
+  body.services .contact .adress_socials_form form .flex_form .wrap_message input,
+  body.service-creative .contact .adress_socials_form form .flex_form .wrap_message input,
+  body.service-coast .contact .adress_socials_form form .flex_form .wrap_message input,
+  body.service-lab .contact .adress_socials_form form .flex_form .wrap_message input,
+  body.contacts-main .contact .adress_socials_form form .flex_form .wrap_message input {
+    margin-bottom: 35px;
+  }
+  body.aboutus .staff h1:first-child,
+  body.index .staff h1:first-child,
+  body.services .staff h1:first-child,
+  body.service-creative .staff h1:first-child,
+  body.service-coast .staff h1:first-child,
+  body.service-lab .staff h1:first-child,
+  body.contacts-main .staff h1:first-child {
+    padding-top: 60px;
+    margin: 0 0 60px;
+  }
+  body.aboutus .staff .carousel-indicators,
+  body.index .staff .carousel-indicators,
+  body.services .staff .carousel-indicators,
+  body.service-creative .staff .carousel-indicators,
+  body.service-coast .staff .carousel-indicators,
+  body.service-lab .staff .carousel-indicators,
+  body.contacts-main .staff .carousel-indicators {
+    margin-bottom: 60px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item,
+  body.index .staff .carousel-item .wrap-item,
+  body.services .staff .carousel-item .wrap-item,
+  body.service-creative .staff .carousel-item .wrap-item,
+  body.service-coast .staff .carousel-item .wrap-item,
+  body.service-lab .staff .carousel-item .wrap-item,
+  body.contacts-main .staff .carousel-item .wrap-item {
+    grid-template-columns: 27% 27% 27%;
+    padding: 0 10% 130px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:first-child,
+  body.index .staff .carousel-item .wrap-item div p:first-child,
+  body.services .staff .carousel-item .wrap-item div p:first-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:first-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:first-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:first-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:first-child {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    line-height: 30px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:last-child,
+  body.index .staff .carousel-item .wrap-item div p:last-child,
+  body.services .staff .carousel-item .wrap-item div p:last-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:last-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:last-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:last-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:last-child {
+    padding-top: 13px;
+    font-size: 16px;
+  }
+  body.aboutus .goals,
+  body.index .goals,
+  body.services .goals,
+  body.service-creative .goals,
+  body.service-coast .goals,
+  body.service-lab .goals,
+  body.contacts-main .goals {
+    padding: 60px 0;
+  }
+  body.aboutus .goals div p:first-child,
+  body.index .goals div p:first-child,
+  body.services .goals div p:first-child,
+  body.service-creative .goals div p:first-child,
+  body.service-coast .goals div p:first-child,
+  body.service-lab .goals div p:first-child,
+  body.contacts-main .goals div p:first-child {
+    font-size: 30px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    line-height: 30px;
+  }
+  body.aboutus .goals div p:last-child,
+  body.index .goals div p:last-child,
+  body.services .goals div p:last-child,
+  body.service-creative .goals div p:last-child,
+  body.service-coast .goals div p:last-child,
+  body.service-lab .goals div p:last-child,
+  body.contacts-main .goals div p:last-child {
+    padding-top: 13px;
+    font-size: 16px;
+  }
+  body.aboutus .clientsays,
+  body.index .clientsays,
+  body.services .clientsays,
+  body.service-creative .clientsays,
+  body.service-coast .clientsays,
+  body.service-lab .clientsays,
+  body.contacts-main .clientsays {
+    padding-bottom: 20px;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments {
+    padding: 0 1%;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg {
+    width: 90%;
+  }
+}
+@media only all and (max-width: 991px) {
+  body.aboutus .navbar .navbar-collapse ul,
+  body.index .navbar .navbar-collapse ul,
+  body.services .navbar .navbar-collapse ul,
+  body.service-creative .navbar .navbar-collapse ul,
+  body.service-coast .navbar .navbar-collapse ul,
+  body.service-lab .navbar .navbar-collapse ul,
+  body.works .navbar .navbar-collapse ul,
+  body.worksolo .navbar .navbar-collapse ul,
+  body.blog .navbar .navbar-collapse ul,
+  body.blog-inner .navbar .navbar-collapse ul,
+  body.contacts-main .navbar .navbar-collapse ul {
+    text-align: center;
+  }
+  body.aboutus .navbar .navbar-collapse ul li a,
+  body.index .navbar .navbar-collapse ul li a,
+  body.services .navbar .navbar-collapse ul li a,
+  body.service-creative .navbar .navbar-collapse ul li a,
+  body.service-coast .navbar .navbar-collapse ul li a,
+  body.service-lab .navbar .navbar-collapse ul li a,
+  body.works .navbar .navbar-collapse ul li a,
+  body.worksolo .navbar .navbar-collapse ul li a,
+  body.blog .navbar .navbar-collapse ul li a,
+  body.blog-inner .navbar .navbar-collapse ul li a,
+  body.contacts-main .navbar .navbar-collapse ul li a {
+    background-image: none !important;
+  }
+  body.aboutus .navbar .navbar-collapse ul li.nav-item a,
+  body.index .navbar .navbar-collapse ul li.nav-item a,
+  body.services .navbar .navbar-collapse ul li.nav-item a,
+  body.service-creative .navbar .navbar-collapse ul li.nav-item a,
+  body.service-coast .navbar .navbar-collapse ul li.nav-item a,
+  body.service-lab .navbar .navbar-collapse ul li.nav-item a,
+  body.works .navbar .navbar-collapse ul li.nav-item a,
+  body.worksolo .navbar .navbar-collapse ul li.nav-item a,
+  body.blog .navbar .navbar-collapse ul li.nav-item a,
+  body.blog-inner .navbar .navbar-collapse ul li.nav-item a,
+  body.contacts-main .navbar .navbar-collapse ul li.nav-item a {
+    padding: 8px 0;
+    border-bottom: solid #d8d8d8 1px;
+  }
+  body.aboutus .navbar .navbar-toggler,
+  body.index .navbar .navbar-toggler,
+  body.services .navbar .navbar-toggler,
+  body.service-creative .navbar .navbar-toggler,
+  body.service-coast .navbar .navbar-toggler,
+  body.service-lab .navbar .navbar-toggler,
+  body.works .navbar .navbar-toggler,
+  body.worksolo .navbar .navbar-toggler,
+  body.blog .navbar .navbar-toggler,
+  body.blog-inner .navbar .navbar-toggler,
+  body.contacts-main .navbar .navbar-toggler {
+    outline: none;
+  }
+}
+@media only all and (max-width: 768px) {
+  body.aboutus .staff h1,
+  body.index .staff h1,
+  body.services .staff h1,
+  body.service-creative .staff h1,
+  body.service-coast .staff h1,
+  body.service-lab .staff h1,
+  body.works .staff h1,
+  body.worksolo .staff h1,
+  body.blog .staff h1,
+  body.blog .staff h1,
+  body.blog-inner .staff h1,
+  body.contacts-main .staff h1,
+  body.aboutus .contact h1,
+  body.index .contact h1,
+  body.services .contact h1,
+  body.service-creative .contact h1,
+  body.service-coast .contact h1,
+  body.service-lab .contact h1,
+  body.works .contact h1,
+  body.worksolo .contact h1,
+  body.blog .contact h1,
+  body.blog .contact h1,
+  body.blog-inner .contact h1,
+  body.contacts-main .contact h1,
+  body.aboutus .clientsays h1,
+  body.index .clientsays h1,
+  body.services .clientsays h1,
+  body.service-creative .clientsays h1,
+  body.service-coast .clientsays h1,
+  body.service-lab .clientsays h1,
+  body.works .clientsays h1,
+  body.worksolo .clientsays h1,
+  body.blog .clientsays h1,
+  body.blog .clientsays h1,
+  body.blog-inner .clientsays h1,
+  body.contacts-main .clientsays h1 {
+    font-size: 42px;
+    line-height: 31px;
+    margin: 30px 0;
+  }
+  body.aboutus header,
+  body.index header,
+  body.services header,
+  body.service-creative header,
+  body.service-coast header,
+  body.service-lab header,
+  body.works header,
+  body.worksolo header,
+  body.blog header,
+  body.blog header,
+  body.blog-inner header,
+  body.contacts-main header {
+    padding: 30px 5%;
+  }
+  body.aboutus .staff h1:first-child,
+  body.index .staff h1:first-child,
+  body.services .staff h1:first-child,
+  body.service-creative .staff h1:first-child,
+  body.service-coast .staff h1:first-child,
+  body.service-lab .staff h1:first-child,
+  body.works .staff h1:first-child,
+  body.worksolo .staff h1:first-child,
+  body.blog .staff h1:first-child,
+  body.blog .staff h1:first-child,
+  body.blog-inner .staff h1:first-child,
+  body.contacts-main .staff h1:first-child {
+    margin: 0 0 30px;
+    padding-top: 30px;
+  }
+  body.aboutus .staff .carousel-control-prev,
+  body.index .staff .carousel-control-prev,
+  body.services .staff .carousel-control-prev,
+  body.service-creative .staff .carousel-control-prev,
+  body.service-coast .staff .carousel-control-prev,
+  body.service-lab .staff .carousel-control-prev,
+  body.works .staff .carousel-control-prev,
+  body.worksolo .staff .carousel-control-prev,
+  body.blog .staff .carousel-control-prev,
+  body.blog .staff .carousel-control-prev,
+  body.blog-inner .staff .carousel-control-prev,
+  body.contacts-main .staff .carousel-control-prev,
+  body.aboutus .staff .carousel-control-next,
+  body.index .staff .carousel-control-next,
+  body.services .staff .carousel-control-next,
+  body.service-creative .staff .carousel-control-next,
+  body.service-coast .staff .carousel-control-next,
+  body.service-lab .staff .carousel-control-next,
+  body.works .staff .carousel-control-next,
+  body.worksolo .staff .carousel-control-next,
+  body.blog .staff .carousel-control-next,
+  body.blog .staff .carousel-control-next,
+  body.blog-inner .staff .carousel-control-next,
+  body.contacts-main .staff .carousel-control-next {
+    display: none;
+  }
+  body.aboutus .staff .carousel-item .wrap-item,
+  body.index .staff .carousel-item .wrap-item,
+  body.services .staff .carousel-item .wrap-item,
+  body.service-creative .staff .carousel-item .wrap-item,
+  body.service-coast .staff .carousel-item .wrap-item,
+  body.service-lab .staff .carousel-item .wrap-item,
+  body.works .staff .carousel-item .wrap-item,
+  body.worksolo .staff .carousel-item .wrap-item,
+  body.blog .staff .carousel-item .wrap-item,
+  body.blog .staff .carousel-item .wrap-item,
+  body.blog-inner .staff .carousel-item .wrap-item,
+  body.contacts-main .staff .carousel-item .wrap-item {
+    grid-template-columns: 30% 30% 30%;
+    padding: 0 1% 130px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:first-child,
+  body.index .staff .carousel-item .wrap-item div p:first-child,
+  body.services .staff .carousel-item .wrap-item div p:first-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:first-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:first-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:first-child,
+  body.works .staff .carousel-item .wrap-item div p:first-child,
+  body.worksolo .staff .carousel-item .wrap-item div p:first-child,
+  body.blog .staff .carousel-item .wrap-item div p:first-child,
+  body.blog .staff .carousel-item .wrap-item div p:first-child,
+  body.blog-inner .staff .carousel-item .wrap-item div p:first-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:first-child {
+    font-size: 25px;
+    padding-bottom: 14px;
+    line-height: 25px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:last-child,
+  body.index .staff .carousel-item .wrap-item div p:last-child,
+  body.services .staff .carousel-item .wrap-item div p:last-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:last-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:last-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:last-child,
+  body.works .staff .carousel-item .wrap-item div p:last-child,
+  body.worksolo .staff .carousel-item .wrap-item div p:last-child,
+  body.blog .staff .carousel-item .wrap-item div p:last-child,
+  body.blog .staff .carousel-item .wrap-item div p:last-child,
+  body.blog-inner .staff .carousel-item .wrap-item div p:last-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:last-child {
+    padding-top: 9px;
+  }
+  body.aboutus .goals,
+  body.index .goals,
+  body.services .goals,
+  body.service-creative .goals,
+  body.service-coast .goals,
+  body.service-lab .goals,
+  body.works .goals,
+  body.worksolo .goals,
+  body.blog .goals,
+  body.blog .goals,
+  body.blog-inner .goals,
+  body.contacts-main .goals {
+    padding: 30px 0;
+  }
+  body.aboutus .goals div p:first-child,
+  body.index .goals div p:first-child,
+  body.services .goals div p:first-child,
+  body.service-creative .goals div p:first-child,
+  body.service-coast .goals div p:first-child,
+  body.service-lab .goals div p:first-child,
+  body.works .goals div p:first-child,
+  body.worksolo .goals div p:first-child,
+  body.blog .goals div p:first-child,
+  body.blog .goals div p:first-child,
+  body.blog-inner .goals div p:first-child,
+  body.contacts-main .goals div p:first-child {
+    font-size: 25px;
+    padding-bottom: 14px;
+    line-height: 25px;
+  }
+  body.aboutus .goals div p:last-child,
+  body.index .goals div p:last-child,
+  body.services .goals div p:last-child,
+  body.service-creative .goals div p:last-child,
+  body.service-coast .goals div p:last-child,
+  body.service-lab .goals div p:last-child,
+  body.works .goals div p:last-child,
+  body.worksolo .goals div p:last-child,
+  body.blog .goals div p:last-child,
+  body.blog .goals div p:last-child,
+  body.blog-inner .goals div p:last-child,
+  body.contacts-main .goals div p:last-child {
+    padding: 9px 20px 0;
+  }
+  body.aboutus .goals br,
+  body.index .goals br,
+  body.services .goals br,
+  body.service-creative .goals br,
+  body.service-coast .goals br,
+  body.service-lab .goals br,
+  body.works .goals br,
+  body.worksolo .goals br,
+  body.blog .goals br,
+  body.blog .goals br,
+  body.blog-inner .goals br,
+  body.contacts-main .goals br {
+    display: inline;
+  }
+  body.aboutus .contact .adress_socials_form,
+  body.index .contact .adress_socials_form,
+  body.services .contact .adress_socials_form,
+  body.service-creative .contact .adress_socials_form,
+  body.service-coast .contact .adress_socials_form,
+  body.service-lab .contact .adress_socials_form,
+  body.works .contact .adress_socials_form,
+  body.worksolo .contact .adress_socials_form,
+  body.blog .contact .adress_socials_form,
+  body.blog .contact .adress_socials_form,
+  body.blog-inner .contact .adress_socials_form,
+  body.contacts-main .contact .adress_socials_form {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, auto);
+    place-content: start center;
+  }
+  body.aboutus .contact .adress_socials_form form,
+  body.index .contact .adress_socials_form form,
+  body.services .contact .adress_socials_form form,
+  body.service-creative .contact .adress_socials_form form,
+  body.service-coast .contact .adress_socials_form form,
+  body.service-lab .contact .adress_socials_form form,
+  body.works .contact .adress_socials_form form,
+  body.worksolo .contact .adress_socials_form form,
+  body.blog .contact .adress_socials_form form,
+  body.blog .contact .adress_socials_form form,
+  body.blog-inner .contact .adress_socials_form form,
+  body.contacts-main .contact .adress_socials_form form {
+    padding: 20px 10%;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+  }
+  body.aboutus .contact .adress_socials_form form .wrap_submit,
+  body.index .contact .adress_socials_form form .wrap_submit,
+  body.services .contact .adress_socials_form form .wrap_submit,
+  body.service-creative .contact .adress_socials_form form .wrap_submit,
+  body.service-coast .contact .adress_socials_form form .wrap_submit,
+  body.service-lab .contact .adress_socials_form form .wrap_submit,
+  body.works .contact .adress_socials_form form .wrap_submit,
+  body.worksolo .contact .adress_socials_form form .wrap_submit,
+  body.blog .contact .adress_socials_form form .wrap_submit,
+  body.blog .contact .adress_socials_form form .wrap_submit,
+  body.blog-inner .contact .adress_socials_form form .wrap_submit,
+  body.contacts-main .contact .adress_socials_form form .wrap_submit {
+    display: flex;
+    justify-content: center;
+  }
+  body.aboutus .contact .adress_socials_form form .flex_form input,
+  body.index .contact .adress_socials_form form .flex_form input,
+  body.services .contact .adress_socials_form form .flex_form input,
+  body.service-creative .contact .adress_socials_form form .flex_form input,
+  body.service-coast .contact .adress_socials_form form .flex_form input,
+  body.service-lab .contact .adress_socials_form form .flex_form input,
+  body.works .contact .adress_socials_form form .flex_form input,
+  body.worksolo .contact .adress_socials_form form .flex_form input,
+  body.blog .contact .adress_socials_form form .flex_form input,
+  body.blog .contact .adress_socials_form form .flex_form input,
+  body.blog-inner .contact .adress_socials_form form .flex_form input,
+  body.contacts-main .contact .adress_socials_form form .flex_form input {
+    width: 100%;
+  }
+  body.aboutus .contact .adress_socials_form #thank,
+  body.index .contact .adress_socials_form #thank,
+  body.services .contact .adress_socials_form #thank,
+  body.service-creative .contact .adress_socials_form #thank,
+  body.service-coast .contact .adress_socials_form #thank,
+  body.service-lab .contact .adress_socials_form #thank,
+  body.works .contact .adress_socials_form #thank,
+  body.worksolo .contact .adress_socials_form #thank,
+  body.blog .contact .adress_socials_form #thank,
+  body.blog .contact .adress_socials_form #thank,
+  body.blog-inner .contact .adress_socials_form #thank,
+  body.contacts-main .contact .adress_socials_form #thank {
+    height: 339px;
+    padding: 20px 10%;
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+    text-align: center;
+  }
+  body.aboutus .contact .adress_socials_form #thank svg,
+  body.index .contact .adress_socials_form #thank svg,
+  body.services .contact .adress_socials_form #thank svg,
+  body.service-creative .contact .adress_socials_form #thank svg,
+  body.service-coast .contact .adress_socials_form #thank svg,
+  body.service-lab .contact .adress_socials_form #thank svg,
+  body.works .contact .adress_socials_form #thank svg,
+  body.worksolo .contact .adress_socials_form #thank svg,
+  body.blog .contact .adress_socials_form #thank svg,
+  body.blog .contact .adress_socials_form #thank svg,
+  body.blog-inner .contact .adress_socials_form #thank svg,
+  body.contacts-main .contact .adress_socials_form #thank svg {
+    margin-left: 0;
+  }
+  body.aboutus .contact .adress_socials_form #thank P,
+  body.index .contact .adress_socials_form #thank P,
+  body.services .contact .adress_socials_form #thank P,
+  body.service-creative .contact .adress_socials_form #thank P,
+  body.service-coast .contact .adress_socials_form #thank P,
+  body.service-lab .contact .adress_socials_form #thank P,
+  body.works .contact .adress_socials_form #thank P,
+  body.worksolo .contact .adress_socials_form #thank P,
+  body.blog .contact .adress_socials_form #thank P,
+  body.blog .contact .adress_socials_form #thank P,
+  body.blog-inner .contact .adress_socials_form #thank P,
+  body.contacts-main .contact .adress_socials_form #thank P {
+    text-align: center;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .adress ul,
+  body.index .contact .adress_socials_form .adress_socials .adress ul,
+  body.services .contact .adress_socials_form .adress_socials .adress ul,
+  body.service-creative .contact .adress_socials_form .adress_socials .adress ul,
+  body.service-coast .contact .adress_socials_form .adress_socials .adress ul,
+  body.service-lab .contact .adress_socials_form .adress_socials .adress ul,
+  body.works .contact .adress_socials_form .adress_socials .adress ul,
+  body.worksolo .contact .adress_socials_form .adress_socials .adress ul,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul,
+  body.blog-inner .contact .adress_socials_form .adress_socials .adress ul,
+  body.contacts-main .contact .adress_socials_form .adress_socials .adress ul {
+    padding-top: 20px;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.index .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.services .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.works .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n),
+  body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:nth-child(n) {
+    text-align: center;
+    background-image: none;
+    padding-left: 0;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.index .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.services .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.works .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:first-child:before,
+  body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:first-child:before {
+    content: url('images/pin.png');
+    margin-right: 20px;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.index .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.services .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.works .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before,
+  body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:nth-child(2):before {
+    content: url('images/iphone.png');
+    margin-right: 20px;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.index .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.services .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.service-creative .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.service-coast .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.service-lab .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.works .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.worksolo .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.blog .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.blog-inner .contact .adress_socials_form .adress_socials .adress ul li:last-child:before,
+  body.contacts-main .contact .adress_socials_form .adress_socials .adress ul li:last-child:before {
+    content: url('images/envelope.png');
+    margin-right: 20px;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .socials,
+  body.index .contact .adress_socials_form .adress_socials .socials,
+  body.services .contact .adress_socials_form .adress_socials .socials,
+  body.service-creative .contact .adress_socials_form .adress_socials .socials,
+  body.service-coast .contact .adress_socials_form .adress_socials .socials,
+  body.service-lab .contact .adress_socials_form .adress_socials .socials,
+  body.works .contact .adress_socials_form .adress_socials .socials,
+  body.worksolo .contact .adress_socials_form .adress_socials .socials,
+  body.blog .contact .adress_socials_form .adress_socials .socials,
+  body.blog .contact .adress_socials_form .adress_socials .socials,
+  body.blog-inner .contact .adress_socials_form .adress_socials .socials,
+  body.contacts-main .contact .adress_socials_form .adress_socials .socials {
+    margin-top: 35px;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .socials ul,
+  body.index .contact .adress_socials_form .adress_socials .socials ul,
+  body.services .contact .adress_socials_form .adress_socials .socials ul,
+  body.service-creative .contact .adress_socials_form .adress_socials .socials ul,
+  body.service-coast .contact .adress_socials_form .adress_socials .socials ul,
+  body.service-lab .contact .adress_socials_form .adress_socials .socials ul,
+  body.works .contact .adress_socials_form .adress_socials .socials ul,
+  body.worksolo .contact .adress_socials_form .adress_socials .socials ul,
+  body.blog .contact .adress_socials_form .adress_socials .socials ul,
+  body.blog .contact .adress_socials_form .adress_socials .socials ul,
+  body.blog-inner .contact .adress_socials_form .adress_socials .socials ul,
+  body.contacts-main .contact .adress_socials_form .adress_socials .socials ul {
+    justify-content: center;
+  }
+  body.aboutus footer,
+  body.index footer,
+  body.services footer,
+  body.service-creative footer,
+  body.service-coast footer,
+  body.service-lab footer,
+  body.works footer,
+  body.worksolo footer,
+  body.blog footer,
+  body.blog footer,
+  body.blog-inner footer,
+  body.contacts-main footer {
+    padding: 30px 0;
+  }
+  body.aboutus .clientsays,
+  body.index .clientsays,
+  body.services .clientsays,
+  body.service-creative .clientsays,
+  body.service-coast .clientsays,
+  body.service-lab .clientsays,
+  body.works .clientsays,
+  body.worksolo .clientsays,
+  body.blog .clientsays,
+  body.blog .clientsays,
+  body.blog-inner .clientsays,
+  body.contacts-main .clientsays {
+    padding-bottom: 10px;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments {
+    padding: 0 1%;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg {
+    width: 90%;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child {
+    padding-right: 30px;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child {
+    font-size: 34px;
+    padding-bottom: 10px;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child {
+    padding-top: 10px;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.services .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.works .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.worksolo .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.blog .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.blog-inner .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+}
+@media only all and (max-width: 640px) {
+  body.aboutus .contact .adress_socials_form,
+  body.index .contact .adress_socials_form,
+  body.service-creative .contact .adress_socials_form,
+  body.service-coast .contact .adress_socials_form,
+  body.service-lab .contact .adress_socials_form,
+  body.contacts-main .contact .adress_socials_form {
+    display: block;
+  }
+  body.aboutus .contact .adress_socials_form form .send,
+  body.index .contact .adress_socials_form form .send,
+  body.service-creative .contact .adress_socials_form form .send,
+  body.service-coast .contact .adress_socials_form form .send,
+  body.service-lab .contact .adress_socials_form form .send,
+  body.contacts-main .contact .adress_socials_form form .send {
+    width: 150px;
+    height: 40px;
+  }
+  body.aboutus .contact .adress_socials_form #thank svg,
+  body.index .contact .adress_socials_form #thank svg,
+  body.service-creative .contact .adress_socials_form #thank svg,
+  body.service-coast .contact .adress_socials_form #thank svg,
+  body.service-lab .contact .adress_socials_form #thank svg,
+  body.contacts-main .contact .adress_socials_form #thank svg {
+    margin-bottom: 15px;
+  }
+  body.aboutus .contact .adress_socials_form #thank p,
+  body.index .contact .adress_socials_form #thank p,
+  body.service-creative .contact .adress_socials_form #thank p,
+  body.service-coast .contact .adress_socials_form #thank p,
+  body.service-lab .contact .adress_socials_form #thank p,
+  body.contacts-main .contact .adress_socials_form #thank p {
+    font-size: 26px;
+  }
+  body.aboutus .contact .adress_socials_form #thank button,
+  body.index .contact .adress_socials_form #thank button,
+  body.service-creative .contact .adress_socials_form #thank button,
+  body.service-coast .contact .adress_socials_form #thank button,
+  body.service-lab .contact .adress_socials_form #thank button,
+  body.contacts-main .contact .adress_socials_form #thank button {
+    margin: 25px 0 10px;
+  }
+  body.aboutus .contact .adress_socials_form .adress_socials .socials ul li,
+  body.index .contact .adress_socials_form .adress_socials .socials ul li,
+  body.service-creative .contact .adress_socials_form .adress_socials .socials ul li,
+  body.service-coast .contact .adress_socials_form .adress_socials .socials ul li,
+  body.service-lab .contact .adress_socials_form .adress_socials .socials ul li,
+  body.contacts-main .contact .adress_socials_form .adress_socials .socials ul li {
+    margin-right: 15px;
+  }
+  body.aboutus .staff h1:first-child,
+  body.index .staff h1:first-child,
+  body.service-creative .staff h1:first-child,
+  body.service-coast .staff h1:first-child,
+  body.service-lab .staff h1:first-child,
+  body.contacts-main .staff h1:first-child {
+    margin: 0 0 20px;
+    padding-top: 20px;
+  }
+  body.aboutus .staff .carousel-indicators,
+  body.index .staff .carousel-indicators,
+  body.service-creative .staff .carousel-indicators,
+  body.service-coast .staff .carousel-indicators,
+  body.service-lab .staff .carousel-indicators,
+  body.contacts-main .staff .carousel-indicators {
+    bottom: -30px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item,
+  body.index .staff .carousel-item .wrap-item,
+  body.service-creative .staff .carousel-item .wrap-item,
+  body.service-coast .staff .carousel-item .wrap-item,
+  body.service-lab .staff .carousel-item .wrap-item,
+  body.contacts-main .staff .carousel-item .wrap-item {
+    grid-auto-flow: column;
+    grid-template-columns: 45% 45%;
+    grid-template-rows: repeat(3, 1fr);
+    place-content: center center;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 0 1% 90px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div,
+  body.index .staff .carousel-item .wrap-item div,
+  body.service-creative .staff .carousel-item .wrap-item div,
+  body.service-coast .staff .carousel-item .wrap-item div,
+  body.service-lab .staff .carousel-item .wrap-item div,
+  body.contacts-main .staff .carousel-item .wrap-item div {
+    align-self: center;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:first-child,
+  body.index .staff .carousel-item .wrap-item div p:first-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:first-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:first-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:first-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:first-child {
+    font-size: 24px;
+    font-weight: 500;
+    padding-bottom: 18px;
+    line-height: 22px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:last-child,
+  body.index .staff .carousel-item .wrap-item div p:last-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:last-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:last-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:last-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:last-child {
+    padding-top: 10px;
+    font-size: 16px;
+  }
+  body.aboutus .staff h1,
+  body.index .staff h1,
+  body.service-creative .staff h1,
+  body.service-coast .staff h1,
+  body.service-lab .staff h1,
+  body.contacts-main .staff h1,
+  body.aboutus .contact h1,
+  body.index .contact h1,
+  body.service-creative .contact h1,
+  body.service-coast .contact h1,
+  body.service-lab .contact h1,
+  body.contacts-main .contact h1,
+  body.aboutus .clientsays h1,
+  body.index .clientsays h1,
+  body.service-creative .clientsays h1,
+  body.service-coast .clientsays h1,
+  body.service-lab .clientsays h1,
+  body.contacts-main .clientsays h1 {
+    font-size: 32px;
+    margin: 20px 0;
+  }
+  body.aboutus .clientsays,
+  body.index .clientsays,
+  body.service-creative .clientsays,
+  body.service-coast .clientsays,
+  body.service-lab .clientsays,
+  body.contacts-main .clientsays {
+    padding-bottom: 0;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto 1fr 1fr;
+    row-gap: 0;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg {
+    width: 70%;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(3),
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(3),
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(3),
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(3),
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(3),
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(3) {
+    grid-row: 3;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(4),
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(4),
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(4),
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(4),
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(4),
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label:nth-of-type(4) {
+    grid-row: 3;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment {
+    grid-template-columns: 1fr;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child {
+    padding-right: 0;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child P:first-child {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+    background-position: bottom center;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:first-child p:last-child {
+    padding-top: 10px;
+    text-align: center;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments div.comment div:last-child P {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+}
+@media only all and (max-width: 320px) {
+  body.aboutus .staff h1,
+  body.index .staff h1,
+  body.service-creative .staff h1,
+  body.service-coast .staff h1,
+  body.service-lab .staff h1,
+  body.contacts-main .staff h1,
+  body.aboutus .contact h1,
+  body.index .contact h1,
+  body.service-creative .contact h1,
+  body.service-coast .contact h1,
+  body.service-lab .contact h1,
+  body.contacts-main .contact h1,
+  body.aboutus .clientsays h1,
+  body.index .clientsays h1,
+  body.service-creative .clientsays h1,
+  body.service-coast .clientsays h1,
+  body.service-lab .clientsays h1,
+  body.contacts-main .clientsays h1 {
+    font-size: 30px;
+  }
+  body.aboutus .staff .carousel-control-prev,
+  body.index .staff .carousel-control-prev,
+  body.service-creative .staff .carousel-control-prev,
+  body.service-coast .staff .carousel-control-prev,
+  body.service-lab .staff .carousel-control-prev,
+  body.contacts-main .staff .carousel-control-prev,
+  body.aboutus .staff .carousel-control-next,
+  body.index .staff .carousel-control-next,
+  body.service-creative .staff .carousel-control-next,
+  body.service-coast .staff .carousel-control-next,
+  body.service-lab .staff .carousel-control-next,
+  body.contacts-main .staff .carousel-control-next {
+    display: none;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:first-child,
+  body.index .staff .carousel-item .wrap-item div p:first-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:first-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:first-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:first-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:first-child {
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 8px;
+    line-height: 22px;
+  }
+  body.aboutus .staff .carousel-item .wrap-item div p:last-child,
+  body.index .staff .carousel-item .wrap-item div p:last-child,
+  body.service-creative .staff .carousel-item .wrap-item div p:last-child,
+  body.service-coast .staff .carousel-item .wrap-item div p:last-child,
+  body.service-lab .staff .carousel-item .wrap-item div p:last-child,
+  body.contacts-main .staff .carousel-item .wrap-item div p:last-child {
+    padding-top: 5px;
+    font-size: 16px;
+  }
+  body.aboutus .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.index .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-creative .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-coast .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.service-lab .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg,
+  body.contacts-main .clientsays .carousel .carousel-inner .carousel-item .wrap-comments label svg {
+    width: 100%;
+  }
+}

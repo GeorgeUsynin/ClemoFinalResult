@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Clemo. | Блог</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="bundle.min.css">
+    <link rel="stylesheet" href="normalize.css\normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body class="blog">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">
+                <svg width="107" height="22.999999999999996" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur">
+                            <feGaussianBlur stdDeviation="0" in="SourceGraphic" />
+                        </filter>
+                    </defs>
+                    <g>
+                        <rect fill="none" id="canvas_background" height="25" width="109" y="-1" x="-1" />
+                        <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+                            <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" />
+                        </g>
+                    </g>
+                    <g>
+                        <text filter="url(#svg_1_blur)" font-style="normal" font-weight="bold" xml:space="preserve"
+                            text-anchor="start" font-family="'Montserrat'" font-size="30" id="svg_1" y="22.41956"
+                            x="-0.18154" stroke-width="0" stroke="#000" fill="#000000">clemo</text>
+                        <ellipse ry="3" rx="3" id="svg_2" cy="18.72007" cx="102.45839" stroke-width="1.5" stroke="#000"
+                            fill="#000000" />
+                    </g>
+                </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">о нас<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">услуги</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="works.html">проекты</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">блог</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacts.html">контакты</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="blog-articles">
+            <h1 class="blog-h1">блог</h1>
+            <div class="category">
+                <input type=radio name=category id=cat11 class='radiocat' checked>
+                <label for=cat11>все</label>
+                <input type=radio name=category id=cat22 class='radiocat'>
+                <label for=cat22>креативная архитектура</label>
+                <input type=radio name=category id=cat33 class='radiocat'>
+                <label for=cat33>искусство</label>
+                <input type=radio name=category id=cat44 class='radiocat'>
+                <label for=cat44>дизайн</label>
+            </div>
+            <div class="wrap">
+                <div class="image creative">
+                    <img src="images/sing_small.jpg" alt="Сингапур" title="Сингапур">
+                </div>
+                <div class="text first creative">
+                    <p>мы создали лучшее мероприятие<br>
+                        <span>16 ноября 2020</span>
+                    </p>
+                    <p>
+                        Начало нового десятилетия &mdash; прекрасная возможность внести в свою жизнь положительные
+                        изменения, о которых вы мечтали на протяжении долгого времени. Например, один из вариантов
+                        &mdash; преобразить интерьер собственного дома, создать стильное и современное пространство. За
+                        прошедшие 10 лет сфера интерьерного дизайна сильно изменилась. Инновационные архитектурные
+                        элементы, индустриальный стиль, нейтральные цветовые палитры &mdash; лишь несколько трендов,
+                        которые вдохновляют современных дизайнеров.
+                    </p>
+                    <div class="learn-more">
+                        <form action="blog_inner.html" target="_blank">
+                            <button>узнать больше</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="image creative">
+                    <img src="images/two_doors_small.jpg" alt="Две двери" title="Две двери">
+                </div>
+                <div class="text second creative">
+                    <p>как сделать красивый дизайн?<br>
+                        <span>11 ноября 2020</span>
+                    </p>
+                    <p>
+                        Один из самых больших трендов, активное развитие которого стоит ожидать уже в этом году, &mdash;
+                        возвращение к винтажным элементам декора и предметам интерьера, вдохновением для которых
+                        послужили различные ретро-стили. Винтажная мебель, китч, обои с уникальными принтами, "бабушкин
+                        стиль" &mdash; все это будет гармонично сочетаться с более современными тенденциями, создавая
+                        оригинальное, но при этом стильное пространство.
+                    </p>
+                    <div class="learn-more">
+                        <form action="blog_inner.html" target="_blank">
+                            <button>узнать больше</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="image art">
+                    <img src="images/flowers_small.jpg" alt="Цветы" title="Цветы">
+                </div>
+                <div class="text third art">
+                    <p>фотообои в дизайне интерьера<br>
+                        <span>7 октября 2020</span>
+                    </p>
+                    <p>
+                        Внедрение новых технологий широкоформатной печати, позволяющих создавать объемные
+                        &laquo;живые&raquo; изображения, вернуло моду на фотообои в дизайне интерьера. Чтобы создать в
+                        помещении новую атмосферу, внести в него ноты романтики или авангардной динамики, придать
+                        индивидуальность и уникальность, достаточно воспользоваться самым бюджетным решением:
+                        возможностями объемных фотообоев или имидж-фотографий.
+                    </p>
+                    <div class="learn-more">
+                        <form action="blog_inner.html" target="_blank">
+                            <button>узнать больше</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="image art">
+                    <img src="images/car_small.jpg" alt="Автомобиль" title="Автомобиль">
+                </div>
+                <div class="text forth art">
+                    <p>как обустроить комнату подростка<br>
+                        <span>23 сентября 2020</span>
+                    </p>
+                    <p>
+                        Обустройство комнаты, принадлежащей подростку, может показаться сложной задачей независимо от
+                        того, каким бюджетом располагает семья. Первое, что необходимо принимать во внимание, &mdash;
+                        личные особенности молодого человека. Если возраст ребенка варьируется от 10 до 18 лет, отличное
+                        решение &mdash; превратить ремонт в совместное занятие, способное сплотить членов семьи.
+                    </p>
+                    <div class="learn-more">
+                        <form action="blog_inner.html" target="_blank">
+                            <button>узнать больше</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="image design">
+                    <img src="images/red_house_small.jpg" alt="Красный дом" title="Красный дом">
+                </div>
+                <div class="text fifth design">
+                    <p>подбираем текстиль для ванной<br>
+                        <span>17 августа 2020</span>
+                    </p>
+                    <p>
+                        Обновить интерьер ванной, задать помещению другое настроение и сделать это без хлопотного
+                        ремонта, не затрачивая целое состояние, поможет обычный текстиль. Для ванной (из всего
+                        разнообразия аксессуаров и принадлежностей) он имеет первостепенное значение. Нежные полотенца и
+                        салфетки, уютные и мягкие халаты &mdash; вещи функциональные, необходимые для гигиены и
+                        комфорта. Вещи, от которых зависит как ежедневное настроение, так и качество отдыха после
+                        напряженного дня.
+                    </p>
+                    <div class="learn-more">
+                        <form action="blog_inner.html" target="_blank">
+                            <button>узнать больше</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="show-more2">
+                    <div>
+                        <button id="showMore2">показать больше</button>
+                    </div>
+                </div>
+                <div class="image design last">
+                    <img src="images/book_small.jpg" alt="Книга" title="Книга">
+                </div>
+                <div class="text sixth design last">
+                    <p>арабская сказка у вас дома<br>
+                        <span>10 мая 2020</span>
+                    </p>
+                    <p>
+                        Пряную смесь арабской, африканской и французской культуры вобрала в себя сказочная страна
+                        &mdash; Марокко. Здесь оранжевые мандариновые деревья, величественные мечети с яркой мозаикой и
+                        лавки местных торговцев специями соседствуют с неподвижным спокойствием Сахары и прозрачной
+                        голубизной Средиземного моря.
+                    </p>
+                    <div class="learn-more">
+                        <form action="blog_inner.html" target="_blank">
+                            <button>узнать больше</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="hide-more2">
+                    <div>
+                        <button id="hideMore2">скрыть</button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>&#169; 2021 clemo.</p>
+        <p>all rights reserved</p>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+    <script>
+        $('.carousel').carousel();
+    </script>
+    <script src="custom.js"></script>
+</body>
+
+</html>
