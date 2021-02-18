@@ -4,6 +4,7 @@
 <head>
 	<title>Clemo. | Наши проекты</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="bundle.min.css">
 	<link rel="stylesheet" href="normalize.css\normalize.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -12,7 +13,6 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
 		rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body class="works">
@@ -69,20 +69,18 @@
 		<h1 class="works-h1">наши проекты</h1>
 		<section class="best-work">
 			<div class="category">
-				<input type=radio name=category id=cat1 class='radiocat' checked>
+				<input type="radio" name="category" id="cat1" class="radiocat" checked>
 				<label for=cat1>все</label>
-				<input type=radio name=category id=cat2 class='radiocat'>
+				<input type="radio" name="category" id="cat2" class="radiocat">
 				<label for=cat2>креативная архитектура</label>
-				<input type=radio name=category id=cat3 class='radiocat'>
+				<input type="radio" name="category" id="cat3" class="radiocat">
 				<label for=cat3>прибрежное проектирование</label>
-				<input type=radio name=category id=cat4 class='radiocat'>
+				<input type="radio" name="category" id="cat4" class="radiocat">
 				<label for=cat4>планирование лабораторий</label>
 			</div>
 			<div class="block arch">
 				<div>
-					<a href="worksolo.html"></a>
-					<img src="images/best-work-1.jpg" alt="Гамак на веранде" title="Гамак на веранде">
-					</a>
+					<a href="worksolo.html"><img src="images/best-work-1.jpg" alt="Гамак на веранде" title="Гамак на веранде"></a>
 					<div>
 						<a href="worksolo.html">
 							<p>golfino<br>
@@ -91,7 +89,8 @@
 						</a>
 					</div>
 				</div>
-				<div><a href="worksolo.html"><img src="images/best-work-2.jpg" alt="Дом" title="Дом"></a>
+				<div>
+					<a href="worksolo.html"><img src="images/best-work-2.jpg" alt="Дом" title="Дом"></a>
 					<div>
 						<a href="worksolo.html">
 							<p>lettres<br>
@@ -154,10 +153,7 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
 		crossorigin="anonymous"></script>
-	<script>
-		$('.carousel').carousel();
-	</script>
-	<script src="custom.js"></script>
+	<script src="js/custom.js"></script>
 </body>
 
 </html>
